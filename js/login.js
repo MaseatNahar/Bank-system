@@ -17,7 +17,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     //step-4: verify email and password and check whether valid user or not
 
     if(email ==='alfatjahan@rony.com' && password === 'secret'){
-        console.log('valid user');
+        window.location.href ="bank2ndpage.html";  //connection of two html file.
     }
     else {
         console.log('user invalid try again')
